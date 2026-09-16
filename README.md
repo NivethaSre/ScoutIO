@@ -6,7 +6,7 @@ method, whether API access is self-serve or gated, its API surface, and
 whether it could be an agent toolkit today — then verifies its own
 accuracy by sampling results and auditing them against real docs.
 
-**Live case study:** https://scoutio-nivethasre.netlify.app
+**Live case study:** [https://scoutio-nivethasre.netlify.app](https://scoutio-nivethasre.netlify.app/)
 **Repo:** https://github.com/NivethaSre/scoutio
 
 ## Stack
