@@ -1,0 +1,137 @@
+{
+  "status": "completed",
+  "timestamp": "2026-09-16T20:20:00.787110+00:00",
+  "mode": "interactive",
+  "sample_size": 3,
+  "fields_evaluated": 27,
+  "differences_found": 14,
+  "initial_accuracy_percent": 48.15,
+  "human_corrections_count": 0,
+  "audited_accuracy_percent": 85.19,
+  "audit_records": [
+    {
+      "app": "Plaid",
+      "original_run": {
+        "app": "Plaid",
+        "category": "Finance and Fintech",
+        "one_liner": "Plaid provides a unified API to access users' bank account and transaction data for fintech applications.",
+        "auth_methods": [
+          "API Key (client_id & secret)",
+          "OAuth2 (Link flow)"
+        ],
+        "access": "self_serve",
+        "api_surface": "REST (broad: 100+ endpoints)",
+        "mcp_exists": true,
+        "buildability_verdict": "yes",
+        "blocker": null,
+        "evidence_url": "https://plaid.com/docs"
+      },
+      "verification_run": {
+        "app": "Plaid",
+        "category": "Finance and Fintech",
+        "one_liner": "Plaid provides a unified API to access users' bank account and transaction data for financial applications.",
+        "auth_methods": [
+          "API Key",
+          "OAuth2"
+        ],
+        "access": "self_serve",
+        "api_surface": "REST (broad: 100+ endpoints)",
+        "mcp_exists": true,
+        "buildability_verdict": "yes",
+        "blocker": null,
+        "evidence_url": "https://plaid.com/docs"
+      },
+      "differences": [
+        "one_liner",
+        "auth_methods"
+      ],
+      "agreement_percent": 77.78,
+      "incorrect_fields": [
+        "one_liner",
+        "auth_methods"
+      ],
+      "corrections": {}
+    },
+    {
+      "app": "Pylon",
+      "original_run": {
+        "app": "Pylon",
+        "category": "Support and Helpdesk",
+        "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7383, Requested 3414. Please try again in 20.9775s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6924, Requested 2838. Please try again in 13.215s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      "verification_run": {
+        "app": "Pylon",
+        "category": "Support and Helpdesk",
+        "one_liner": "Pylon is a cloud‑based helpdesk platform that lets teams manage support tickets, knowledge‑base articles, and customer communication.",
+        "auth_methods": [
+          "API Key"
+        ],
+        "access": "self_serve",
+        "api_surface": "REST (moderate: tickets, contacts, knowledge base, webhooks)",
+        "mcp_exists": false,
+        "buildability_verdict": "yes",
+        "blocker": null,
+        "evidence_url": "https://usepylon.com/api"
+      },
+      "differences": [
+        "one_liner",
+        "auth_methods",
+        "access",
+        "api_surface",
+        "mcp_exists",
+        "buildability_verdict",
+        "evidence_url"
+      ],
+      "agreement_percent": 22.22,
+      "incorrect_fields": [
+        "auth_methods"
+      ],
+      "corrections": {}
+    },
+    {
+      "app": "Attio",
+      "original_run": {
+        "app": "Attio",
+        "category": "CRM and Sales",
+        "one_liner": "Attio is a customizable relationship‑management workspace that lets teams organize contacts, pipelines, and workflows via a flexible CRM interface.",
+        "auth_methods": [
+          "OAuth2",
+          "Bearer Token (API Key)"
+        ],
+        "access": "self_serve",
+        "api_surface": "REST (broad: 100+ endpoints)",
+        "mcp_exists": "unknown",
+        "buildability_verdict": "yes",
+        "blocker": null,
+        "evidence_url": "https://developers.attio.com/reference"
+      },
+      "verification_run": {
+        "app": "Attio",
+        "category": "CRM and Sales",
+        "one_liner": "A customizable relationship workspace that lets teams manage contacts, pipelines, and workflows via a flexible CRM platform.",
+        "auth_methods": [
+          "Bearer Token",
+          "OAuth2"
+        ],
+        "access": "self_serve",
+        "api_surface": "REST (broad: ~30 endpoints)",
+        "mcp_exists": true,
+        "buildability_verdict": "yes",
+        "blocker": null,
+        "evidence_url": "https://developers.attio.com/"
+      },
+      "differences": [
+        "one_liner",
+        "auth_methods",
+        "api_surface",
+        "mcp_exists",
+        "evidence_url"
+      ],
+      "agreement_percent": 44.44,
+      "incorrect_fields": [
+        "blocker"
+      ],
+      "corrections": {}
+    }
+  ]
+}

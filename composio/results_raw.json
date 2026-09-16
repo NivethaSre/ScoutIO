@@ -1,0 +1,959 @@
+[
+  {
+    "app": "Salesforce",
+    "category": "CRM and Sales",
+    "one_liner": "A cloud‑based CRM platform that lets businesses manage sales, service, marketing, and analytics through a programmable API suite.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints), SOAP, Bulk, Streaming",
+    "mcp_exists": "unknown",
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/"
+  },
+  {
+    "app": "HubSpot",
+    "category": "CRM and Sales",
+    "one_liner": "HubSpot provides a cloud‑based CRM platform with APIs for contacts, companies, deals, marketing, and sales automation.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token (Private App)",
+      "API Key"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 200+ endpoints covering CRM, marketing, sales, service, and CMS)",
+    "mcp_exists": false,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developers.hubspot.com/docs/api/overview"
+  },
+  {
+    "app": "Pipedrive",
+    "category": "CRM and Sales",
+    "one_liner": "A sales CRM platform that helps teams manage leads, deals, and pipelines through a visual interface and automation tools.",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": false,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developers.pipedrive.com/docs/api/v1/"
+  },
+  {
+    "app": "Attio",
+    "category": "CRM and Sales",
+    "one_liner": "Attio is a customizable relationship‑management workspace that lets teams organize contacts, pipelines, and workflows via a flexible CRM interface.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token (API Key)"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": "unknown",
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developers.attio.com/reference"
+  },
+  {
+    "app": "Twenty",
+    "category": "CRM and Sales",
+    "one_liner": "A modern, open-source CRM platform that centralizes contacts, pipelines, and communications with a programmable REST API.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": false,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://twenty.com/docs/api"
+  },
+  {
+    "app": "Podio",
+    "category": "CRM and Sales",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6656, Requested 5820. Please try again in 33.57s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7033, Requested 3561. Please try again in 19.455s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Zoho CRM",
+    "category": "CRM and Sales",
+    "one_liner": "A cloud‑based CRM platform that lets businesses manage contacts, leads, deals, and automate sales processes via a comprehensive REST API.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://www.zoho.com/crm/developer/docs/api/v2/"
+  },
+  {
+    "app": "Close",
+    "category": "CRM and Sales",
+    "one_liner": "Close is a sales CRM that provides a RESTful API for managing leads, contacts, opportunities, activities, and communications.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developer.close.com/"
+  },
+  {
+    "app": "Copper",
+    "category": "CRM and Sales",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6645, Requested 3275. Please try again in 14.399999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6426, Requested 3275. Please try again in 12.7575s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "DealCloud",
+    "category": "CRM and Sales",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6672, Requested 3225. Please try again in 14.2275s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6991, Requested 4389. Please try again in 25.349999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Zendesk",
+    "category": "Support and Helpdesk",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7470, Requested 3278. Please try again in 20.61s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 400 - {'error': {'message': 'Tool choice is none, but model called a tool', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '{\"name\": \"container.exec\", \"arguments\": {\"cmd\":[\"bash\",\"lc\",\"python - << \\'PY\\'\\\\nprint(\\'test\\')\\\\nPY\"]}}'}}"
+  },
+  {
+    "app": "Intercom",
+    "category": "Support and Helpdesk",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7241, Requested 5031. Please try again in 32.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7038, Requested 5099. Please try again in 31.027499999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Freshdesk",
+    "category": "Support and Helpdesk",
+    "one_liner": "Freshdesk provides a cloud‑based helpdesk platform with ticketing, knowledge base, and automation features accessible via a comprehensive REST API",
+    "auth_methods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints covering tickets, contacts, agents, solutions, forums, etc.)",
+    "mcp_exists": false,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developers.freshdesk.com/api/"
+  },
+  {
+    "app": "Front",
+    "category": "Support and Helpdesk",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6412, Requested 5812. Please try again in 31.68s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5076, Requested 5993. Please try again in 23.0175s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Pylon",
+    "category": "Support and Helpdesk",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7383, Requested 3414. Please try again in 20.9775s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6924, Requested 2838. Please try again in 13.215s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "LiveAgent",
+    "category": "Support and Helpdesk",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7533, Requested 3223. Please try again in 20.67s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6197, Requested 4229. Please try again in 18.195s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Plain",
+    "category": "Support and Helpdesk",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6605, Requested 4247. Please try again in 21.39s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6564, Requested 3612. Please try again in 16.32s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Help Scout",
+    "category": "Support and Helpdesk",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7140, Requested 4074. Please try again in 24.105s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7024, Requested 3551. Please try again in 19.3125s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Gorgias",
+    "category": "Support and Helpdesk",
+    "one_liner": "Gorgias provides a helpdesk platform for e‑commerce stores with a REST API to manage tickets, customers, orders and automations.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: ~50 endpoints)",
+    "mcp_exists": "unknown",
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developers.gorgias.com/reference/authentication"
+  },
+  {
+    "app": "Gladly",
+    "category": "Support and Helpdesk",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6613, Requested 3178. Please try again in 13.4325s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6526, Requested 3949. Please try again in 18.5625s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Slack",
+    "category": "Communications and Messaging",
+    "one_liner": "Slack is a channel‑based messaging platform that enables teams to communicate, share files, and integrate with other tools via a rich API.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://api.slack.com/"
+  },
+  {
+    "app": "Twilio",
+    "category": "Communications and Messaging",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6910, Requested 3614. Please try again in 18.93s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6503, Requested 6747. Please try again in 39.375s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Zoho Cliq",
+    "category": "Communications and Messaging",
+    "one_liner": "Zoho Cliq is a team communication platform that provides real-time messaging, channels, and bot integrations for collaborative work.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": "unknown",
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://www.zoho.com/cliq/api/"
+  },
+  {
+    "app": "Lark (Larksuite)",
+    "category": "Communications and Messaging",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7207, Requested 3671. Please try again in 21.585s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6535, Requested 3671. Please try again in 16.544999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Pumble",
+    "category": "Communications and Messaging",
+    "one_liner": "Team communication platform offering channels, direct messages, and scheduled messaging for collaborative workspaces.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://pumble.com/api"
+  },
+  {
+    "app": "Discord",
+    "category": "Communications and Messaging",
+    "one_liner": "Discord provides a real-time chat platform with a public REST API and WebSocket gateway for creating bots and integrating messaging features.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints) plus WebSocket gateway",
+    "mcp_exists": "unknown",
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://discord.com/developers/docs/intro"
+  },
+  {
+    "app": "Telegram",
+    "category": "Communications and Messaging",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6886, Requested 3948. Please try again in 21.255s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6999, Requested 3396. Please try again in 17.9625s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "WhatsApp Business",
+    "category": "Communications and Messaging",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6556, Requested 3788. Please try again in 17.58s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7022, Requested 3850. Please try again in 21.54s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Aircall",
+    "category": "Communications and Messaging",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7715, Requested 3398. Please try again in 23.3475s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6012, Requested 6050. Please try again in 30.465s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Vonage",
+    "category": "Communications and Messaging",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6710, Requested 3554. Please try again in 16.979999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7815, Requested 3462. Please try again in 24.5775s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Google Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Platform for creating, managing, and optimizing online advertising campaigns across Google’s network",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developers.google.com/google-ads/api/docs/start"
+  },
+  {
+    "app": "Meta Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Meta Ads API enables programmatic creation, management, and reporting of Facebook advertising campaigns.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": false,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developers.facebook.com/docs/marketing-apis"
+  },
+  {
+    "app": "LinkedIn Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "LinkedIn Ads API lets developers programmatically create, manage, and retrieve LinkedIn advertising campaigns, creatives, and performance analytics.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access": "gated",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "partial",
+    "blocker": "Requires Marketing Developer Platform approval before API credentials are issued",
+    "evidence_url": "https://learn.microsoft.com/linkedin/marketing/integrations/ads"
+  },
+  {
+    "app": "GoHighLevel",
+    "category": "Marketing, Ads, Email and Social",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6592, Requested 6060. Please try again in 34.89s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7211, Requested 6003. Please try again in 39.105s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6233, Requested 3703. Please try again in 14.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6769, Requested 3935. Please try again in 20.28s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Klaviyo",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Klaviyo provides a marketing automation platform with APIs for managing contacts, lists, campaigns, flows, and analytics.",
+    "auth_methods": [
+      "API Key (Bearer Token)",
+      "API Key (query parameter)"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": false,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developers.klaviyo.com/en/reference/authentication"
+  },
+  {
+    "app": "systeme.io",
+    "category": "Marketing, Ads, Email and Social",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5556, Requested 7206. Please try again in 35.715s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7868, Requested 3466. Please try again in 25.005s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Pinterest",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "Pinterest provides a REST API for creating, reading, and managing pins, boards, ads, and analytics on the Pinterest platform.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developers.pinterest.com/docs/api/v5/"
+  },
+  {
+    "app": "Threads (Meta)",
+    "category": "Marketing, Ads, Email and Social",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6437, Requested 3635. Please try again in 15.54s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7670, Requested 3697. Please try again in 25.2525s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "SendGrid",
+    "category": "Marketing, Ads, Email and Social",
+    "one_liner": "SendGrid provides cloud‑based transactional and marketing email APIs for sending, tracking, and managing email communications at scale.",
+    "auth_methods": [
+      "API Key (Bearer Token)"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://docs.sendgrid.com/api-reference"
+  },
+  {
+    "app": "Shopify",
+    "category": "Ecommerce",
+    "one_liner": "Shopify provides a comprehensive e‑commerce platform with REST and GraphQL APIs for managing stores, products, orders, and customers.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key",
+      "Bearer Token"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints) and GraphQL (full access)",
+    "mcp_exists": false,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://shopify.dev/docs/admin-api"
+  },
+  {
+    "app": "WooCommerce",
+    "category": "Ecommerce",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7910, Requested 3464. Please try again in 25.305s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6539, Requested 3378. Please try again in 14.3775s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "BigCommerce",
+    "category": "Ecommerce",
+    "one_liner": "BigCommerce provides a cloud‑based e‑commerce platform with a comprehensive REST and GraphQL API suite for managing catalogs, orders, customers, and storefronts.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key (Legacy)"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints) with optional GraphQL Storefront API",
+    "mcp_exists": false,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developer.bigcommerce.com/api-docs/getting-started/authentication"
+  },
+  {
+    "app": "Salesforce Commerce Cloud",
+    "category": "Ecommerce",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6041, Requested 4179. Please try again in 16.65s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6606, Requested 4695. Please try again in 24.7575s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Magento (Adobe Commerce)",
+    "category": "Ecommerce",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6356, Requested 3500. Please try again in 13.92s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4540, Requested 3500. Please try again in 300ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Squarespace",
+    "category": "Ecommerce",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6668, Requested 3173. Please try again in 13.8075s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7866, Requested 3462. Please try again in 24.959999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Ecwid",
+    "category": "Ecommerce",
+    "one_liner": "Ecwid provides a cloud‑based e‑commerce platform with a REST API that lets developers manage products, orders, carts, and other store data programmatically.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": "unknown",
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://api-docs.ecwid.com"
+  },
+  {
+    "app": "Gumroad",
+    "category": "Ecommerce",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7079, Requested 6702. Please try again in 43.357499999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6091, Requested 3215. Please try again in 9.795s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Amazon Selling Partner",
+    "category": "Ecommerce",
+    "one_liner": "Programmatic REST API for Amazon sellers to manage orders, listings, inventory, reports and other marketplace operations.",
+    "auth_methods": [
+      "OAuth2",
+      "AWS Signature"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": false,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developer-docs.amazon.com/sp-api"
+  },
+  {
+    "app": "fanbasis",
+    "category": "Ecommerce",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6741, Requested 4464. Please try again in 24.0375s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7365, Requested 3487. Please try again in 21.39s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "DataForSEO",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Provides a comprehensive REST API for SEO data such as keyword rankings, SERP analysis, backlinks, and site audits.",
+    "auth_methods": [
+      "Basic Auth",
+      "API Key"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://docs.dataforseo.com"
+  },
+  {
+    "app": "SE Ranking",
+    "category": "Data, SEO and Scraping",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7851, Requested 3498. Please try again in 25.1175s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7323, Requested 3464. Please try again in 20.9025s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Ahrefs",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Provides comprehensive SEO data such as backlinks, keywords, rankings, and site analytics via a RESTful API",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 200+ endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://docs.ahrefs.com/docs/api/reference/introduction"
+  },
+  {
+    "app": "MrScraper",
+    "category": "Data, SEO and Scraping",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7312, Requested 3386. Please try again in 20.235s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6727, Requested 4152. Please try again in 21.5925s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Apify",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Apify provides a cloud platform for building, deploying, and managing web‑scraping and automation scripts (Actors) via a comprehensive REST API.",
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": "unknown",
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://docs.apify.com/api/v2"
+  },
+  {
+    "app": "Firecrawl",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Firecrawl provides a REST API to crawl, scrape, and extract structured data from any website at scale.",
+    "auth_methods": [
+      "API Key"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 20+ endpoints)",
+    "mcp_exists": false,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://firecrawl.dev/docs/api-reference"
+  },
+  {
+    "app": "Bright Data",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Bright Data provides a web data platform offering proxy‑based web unlocking, SERP APIs, and scalable crawling for automated data extraction.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key",
+      "Basic Auth"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: web unlocker, crawl, dataset management, SERP APIs)",
+    "mcp_exists": false,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://brightdata.com/docs/api"
+  },
+  {
+    "app": "Sherlock",
+    "category": "Data, SEO and Scraping",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7031, Requested 6003. Please try again in 37.754999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7007, Requested 6045. Please try again in 37.89s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Waterfall.io",
+    "category": "Data, SEO and Scraping",
+    "one_liner": "Waterfall.io provides SEO data, keyword research, and SERP tracking via a programmable API.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 50+ endpoints for keyword, SERP, site audit)",
+    "mcp_exists": false,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://waterfall.io/api-docs"
+  },
+  {
+    "app": "Clay",
+    "category": "Data, SEO and Scraping",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6840, Requested 6127. Please try again in 37.2525s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6992, Requested 6000. Please try again in 37.44s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "GitHub",
+    "category": "Developer, Infra and Data platforms",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6785, Requested 3160. Please try again in 14.5875s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5557, Requested 5400. Please try again in 22.1775s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Vercel",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Vercel offers a cloud platform for deploying front‑end applications and serverless functions with instant global edge delivery and preview URLs.",
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://vercel.com/docs/rest-api"
+  },
+  {
+    "app": "Netlify",
+    "category": "Developer, Infra and Data platforms",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6359, Requested 3619. Please try again in 14.835s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6868, Requested 3612. Please try again in 18.6s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Cloudflare",
+    "category": "Developer, Infra and Data platforms",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5445, Requested 5775. Please try again in 24.15s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6795, Requested 4570. Please try again in 25.2375s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Supabase",
+    "category": "Developer, Infra and Data platforms",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7423, Requested 3777. Please try again in 24s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6854, Requested 3781. Please try again in 19.7625s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Neo4j",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "A graph database platform offering REST and Bolt APIs for querying, managing, and integrating connected data in real time",
+    "auth_methods": [
+      "Basic Auth (username/password)",
+      "Bearer Token"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: query, transaction, schema, admin, and management endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://neo4j.com/docs/api"
+  },
+  {
+    "app": "Snowflake",
+    "category": "Developer, Infra and Data platforms",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6845, Requested 3741. Please try again in 19.395s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7654, Requested 3679. Please try again in 24.9975s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "MongoDB Atlas",
+    "category": "Developer, Infra and Data platforms",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7443, Requested 6003. Please try again in 40.845s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 413 - {'error': {'message': 'Request too large for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8009, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Datadog",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Datadog provides a unified observability platform with APIs for metrics, logs, traces, and infrastructure monitoring",
+    "auth_methods": [
+      "API Key",
+      "Application Key"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://docs.datadoghq.com/api"
+  },
+  {
+    "app": "Sentry",
+    "category": "Developer, Infra and Data platforms",
+    "one_liner": "Error monitoring and performance platform that provides real‑time crash reporting, issue tracking, and performance insights via a RESTful API",
+    "auth_methods": [
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://docs.sentry.io/api"
+  },
+  {
+    "app": "Notion",
+    "category": "Productivity and Project Management",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6148, Requested 2706. Please try again in 6.405s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6768, Requested 4077. Please try again in 21.3375s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Airtable",
+    "category": "Productivity and Project Management",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6317, Requested 3141. Please try again in 10.935s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6822, Requested 3987. Please try again in 21.0675s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Linear",
+    "category": "Productivity and Project Management",
+    "one_liner": "Linear provides a GraphQL API for managing issues, projects, cycles, and related workflow objects in a Linear workspace",
+    "auth_methods": [
+      "OAuth2",
+      "API Key",
+      "Bearer Token"
+    ],
+    "access": "self_serve",
+    "api_surface": "GraphQL (full access)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developers.linear.app/docs/graphql/overview"
+  },
+  {
+    "app": "Jira",
+    "category": "Productivity and Project Management",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6866, Requested 3840. Please try again in 20.295s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6416, Requested 3852. Please try again in 17.009999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Asana",
+    "category": "Productivity and Project Management",
+    "one_liner": "Asana is a work management platform that lets teams organize tasks, projects, and workflows via a REST API.",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer Token"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": false,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developers.asana.com/docs/authentication"
+  },
+  {
+    "app": "Monday.com",
+    "category": "Productivity and Project Management",
+    "one_liner": "A work operating system that lets teams build custom workflows, track projects, and collaborate via boards, docs, and dashboards.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key (Personal Access Token)"
+    ],
+    "access": "self_serve",
+    "api_surface": "GraphQL (full access)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developer.monday.com/apps/docs/authentication"
+  },
+  {
+    "app": "ClickUp",
+    "category": "Productivity and Project Management",
+    "one_liner": "ClickUp is a unified productivity platform that lets teams manage tasks, docs, goals, and chat in customizable workflows.",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://clickup.com/api"
+  },
+  {
+    "app": "Coda",
+    "category": "Productivity and Project Management",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7091, Requested 3725. Please try again in 21.119999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6452, Requested 3725. Please try again in 16.3275s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Smartsheet",
+    "category": "Productivity and Project Management",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6818, Requested 6543. Please try again in 40.207499999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7110, Requested 3989. Please try again in 23.2425s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Harvest",
+    "category": "Productivity and Project Management",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5823, Requested 4589. Please try again in 18.09s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7207, Requested 4888. Please try again in 30.7125s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Stripe",
+    "category": "Finance and Fintech",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7563, Requested 3658. Please try again in 24.1575s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7734, Requested 4117. Please try again in 28.8825s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Plaid",
+    "category": "Finance and Fintech",
+    "one_liner": "Plaid provides a unified API to access users' bank account and transaction data for fintech applications.",
+    "auth_methods": [
+      "API Key (client_id & secret)",
+      "OAuth2 (Link flow)"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://plaid.com/docs"
+  },
+  {
+    "app": "Binance",
+    "category": "Finance and Fintech",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6609, Requested 4338. Please try again in 22.1025s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6753, Requested 4440. Please try again in 23.9475s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Paygent Connect",
+    "category": "Finance and Fintech",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6345, Requested 3126. Please try again in 11.0325s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7799, Requested 3374. Please try again in 23.7975s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "iPayX",
+    "category": "Finance and Fintech",
+    "one_liner": "iPayX offers AI‑enhanced payment processing APIs that let businesses accept, verify, and manage payments programmatically.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token",
+      "OAuth2"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 50+ endpoints)",
+    "mcp_exists": false,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://ipayx.ai/docs"
+  },
+  {
+    "app": "QuickBooks",
+    "category": "Finance and Fintech",
+    "one_liner": "QuickBooks offers cloud accounting APIs that let developers automate bookkeeping, invoicing, payments, and financial reporting.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": false,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization"
+  },
+  {
+    "app": "Xero",
+    "category": "Finance and Fintech",
+    "one_liner": "Cloud‑based accounting platform offering invoicing, bank reconciliation, bookkeeping and real‑time financial reporting via a RESTful API.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developer.xero.com/documentation/api/overview"
+  },
+  {
+    "app": "Brex",
+    "category": "Finance and Fintech",
+    "one_liner": "Brex offers corporate credit card and spend‑management APIs that let businesses automate cash‑flow, expense, and accounting workflows.",
+    "auth_methods": [
+      "Bearer Token"
+    ],
+    "access": "gated",
+    "api_surface": "REST (broad: 100+ endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://developer.brex.com"
+  },
+  {
+    "app": "Ramp",
+    "category": "Finance and Fintech",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6191, Requested 3260. Please try again in 10.8825s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6857, Requested 3260. Please try again in 15.8775s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "PitchBook",
+    "category": "Finance and Fintech",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5900, Requested 6400. Please try again in 32.25s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4772, Requested 5979. Please try again in 20.6325s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "NotebookLM",
+    "category": "AI, Research and Media-native",
+    "one_liner": "A Google AI-powered notebook that helps users organize, summarize, and explore research notes using Gemini models.",
+    "auth_methods": [],
+    "access": "unclear",
+    "api_surface": "No public API",
+    "mcp_exists": false,
+    "buildability_verdict": "no",
+    "blocker": "No public API available",
+    "evidence_url": "https://cloud.google.com/gemini"
+  },
+  {
+    "app": "Otter AI",
+    "category": "AI, Research and Media-native",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6208, Requested 3651. Please try again in 13.942499999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4427, Requested 5984. Please try again in 18.0825s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Fathom",
+    "category": "AI, Research and Media-native",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5944, Requested 3911. Please try again in 13.9125s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6861, Requested 4215. Please try again in 23.07s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Consensus",
+    "category": "AI, Research and Media-native",
+    "one_liner": "AI-powered search engine that returns concise, evidence‑based answers from peer‑reviewed scientific literature.",
+    "auth_methods": [
+      "API Key",
+      "Bearer Token"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (limited: search, retrieve paper, summarize)",
+    "mcp_exists": false,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://docs.consensus.app"
+  },
+  {
+    "app": "Reducto",
+    "category": "AI, Research and Media-native",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4415, Requested 6186. Please try again in 19.5075s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 400 - {'error': {'message': 'Tool choice is none, but model called a tool', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '{\"name\": \"container.exec\", \"arguments\": {\"cmd\":[\"bash\",\"lc\",\"python - << \\'PY\\'\\\\nimport json, os, sys, textwrap, subprocess, shlex, pathlib, re, math, random, datetime, itertools, collections, typing, string, hashlib, base64, time, uuid, pprint, html\\\\nPY\"]}}'}}"
+  },
+  {
+    "app": "Devin",
+    "category": "AI, Research and Media-native",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6794, Requested 2716. Please try again in 11.325s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7523, Requested 2714. Please try again in 16.7775s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "higgsfield",
+    "category": "AI, Research and Media-native",
+    "one_liner": "Higgsfield provides a creative platform with an API (MCP) to generate and manage AI‑created images, videos, characters, audio and website deployments via scoped tokens.",
+    "auth_methods": [
+      "Bearer Token",
+      "API Key"
+    ],
+    "access": "self_serve",
+    "api_surface": "REST (limited: website creation, repo access, deploy, list, and workflow execution endpoints)",
+    "mcp_exists": true,
+    "buildability_verdict": "yes",
+    "blocker": null,
+    "evidence_url": "https://higgsfield.ai/cli"
+  },
+  {
+    "app": "Mermaid CLI",
+    "category": "AI, Research and Media-native",
+    "one_liner": "A command-line tool that renders Mermaid diagram definitions into image files.",
+    "auth_methods": [],
+    "access": "self_serve",
+    "api_surface": "None (no public API)",
+    "mcp_exists": false,
+    "buildability_verdict": "no",
+    "blocker": "No public API available",
+    "evidence_url": "https://github.com/mermaid-js/mermaid-cli"
+  },
+  {
+    "app": "YouTube Transcript",
+    "category": "AI, Research and Media-native",
+    "error": "Attempt 1: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6603, Requested 3984. Please try again in 19.4025s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}} | Attempt 2: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kv3351rqef0b6sqn6xdwvpek` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7817, Requested 3984. Please try again in 28.5075s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "app": "Grain",
+    "category": "AI, Research and Media-native",
+    "one_liner": "AI‑powered meeting capture platform that records, transcribes and highlights video calls for easy sharing and search",
+    "auth_methods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "access": "unclear",
+    "api_surface": "REST (limited: clips, transcripts, highlights)",
+    "mcp_exists": true,
+    "buildability_verdict": "no",
+    "blocker": "No public API available; integration requires MCP installation and possible enterprise approval",
+    "evidence_url": "https://grain.com/developers"
+  }
+]

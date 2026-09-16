@@ -1,0 +1,122 @@
+{
+  "summary": {
+    "total_analyzed": 100,
+    "valid_records": 47,
+    "error_records": 53,
+    "verdicts": {
+      "yes": 43,
+      "partial": 1,
+      "no": 3
+    },
+    "mcp_existence": {
+      "unknown": 7,
+      "no": 18,
+      "yes": 22
+    }
+  },
+  "auth_methods": {
+    "OAuth2": 26,
+    "API Key": 24,
+    "Bearer Token": 19,
+    "API Key (Bearer Token)": 2,
+    "Basic Auth": 2,
+    "Bearer Token (Private App)": 1,
+    "Bearer Token (API Key)": 1,
+    "API Key (query parameter)": 1,
+    "API Key (Legacy)": 1,
+    "AWS Signature": 1,
+    "Basic Auth (username/password)": 1,
+    "Application Key": 1,
+    "API Key (Personal Access Token)": 1,
+    "API Key (client_id & secret)": 1,
+    "OAuth2 (Link flow)": 1
+  },
+  "category_access": {
+    "AI, Research and Media-native": {
+      "self_serve": 3,
+      "gated": 0,
+      "unclear": 2,
+      "total": 5
+    },
+    "CRM and Sales": {
+      "self_serve": 7,
+      "gated": 0,
+      "unclear": 0,
+      "total": 7
+    },
+    "Communications and Messaging": {
+      "self_serve": 4,
+      "gated": 0,
+      "unclear": 0,
+      "total": 4
+    },
+    "Data, SEO and Scraping": {
+      "self_serve": 6,
+      "gated": 0,
+      "unclear": 0,
+      "total": 6
+    },
+    "Developer, Infra and Data platforms": {
+      "self_serve": 4,
+      "gated": 0,
+      "unclear": 0,
+      "total": 4
+    },
+    "Ecommerce": {
+      "self_serve": 4,
+      "gated": 0,
+      "unclear": 0,
+      "total": 4
+    },
+    "Finance and Fintech": {
+      "self_serve": 4,
+      "gated": 1,
+      "unclear": 0,
+      "total": 5
+    },
+    "Marketing, Ads, Email and Social": {
+      "self_serve": 5,
+      "gated": 1,
+      "unclear": 0,
+      "total": 6
+    },
+    "Productivity and Project Management": {
+      "self_serve": 4,
+      "gated": 0,
+      "unclear": 0,
+      "total": 4
+    },
+    "Support and Helpdesk": {
+      "self_serve": 2,
+      "gated": 0,
+      "unclear": 0,
+      "total": 2
+    }
+  },
+  "top_blockers": {
+    "No public API available": 2,
+    "Requires Marketing Developer Platform approval before API credentials are issued": 1,
+    "No public API available; integration requires MCP installation and possible enterprise approval": 1
+  },
+  "no_verdict_by_blocker": {
+    "No public API available": [
+      {
+        "app": "NotebookLM",
+        "category": "AI, Research and Media-native",
+        "evidence_url": "https://cloud.google.com/gemini"
+      },
+      {
+        "app": "Mermaid CLI",
+        "category": "AI, Research and Media-native",
+        "evidence_url": "https://github.com/mermaid-js/mermaid-cli"
+      }
+    ],
+    "No public API available; integration requires MCP installation and possible enterprise approval": [
+      {
+        "app": "Grain",
+        "category": "AI, Research and Media-native",
+        "evidence_url": "https://grain.com/developers"
+      }
+    ]
+  }
+}
