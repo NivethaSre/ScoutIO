@@ -12,7 +12,7 @@ accuracy by sampling results and auditing them against real docs.
 ## Stack
 
 - Python 3.11
-- Groq API (`llama-3.3-70b-versatile`) for structured extraction
+- Groq API (`openai/gpt-oss-120b`) for structured extraction
 - Composio SDK + Composio Search toolkit (`COMPOSIO_SEARCH_TOOLS` via
   `session.tools()`) for the research/lookup step
 - No database — JSON files for all storage
